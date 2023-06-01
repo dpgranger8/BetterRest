@@ -11,6 +11,7 @@
 		7EA1B1C42A2634CB00C6F4C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1B1C32A2634CB00C6F4C0 /* ContentView.swift */; };
 		7EA1B1C62A2634CB00C6F4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA1B1C52A2634CB00C6F4C0 /* Assets.xcassets */; };
 		7EA1B1C92A2634CB00C6F4C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA1B1C82A2634CB00C6F4C0 /* Preview Assets.xcassets */; };
+		7EA1B1D02A263D4900C6F4C0 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1B1CF2A263D4900C6F4C0 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7EA1B1C32A2634CB00C6F4C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7EA1B1C52A2634CB00C6F4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EA1B1C82A2634CB00C6F4C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EA1B1CF2A263D4900C6F4C0 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				7EA1B1C12A2634CB00C6F4C0 /* BetterRestApp.swift */,
+				7EA1B1CF2A263D4900C6F4C0 /* SleepCalculator.mlmodel */,
 				7EA1B1C32A2634CB00C6F4C0 /* ContentView.swift */,
 				7EA1B1C52A2634CB00C6F4C0 /* Assets.xcassets */,
 				7EA1B1C72A2634CB00C6F4C0 /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EA1B1C42A2634CB00C6F4C0 /* ContentView.swift in Sources */,
+				7EA1B1D02A263D4900C6F4C0 /* SleepCalculator.mlmodel in Sources */,
 				7EA1B1C22A2634CB00C6F4C0 /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = m0resleepstudios.BetterRest;
+				PRODUCT_BUNDLE_IDENTIFIER = m0resleepstudios.GuessTheFlag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = m0resleepstudios.BetterRest;
+				PRODUCT_BUNDLE_IDENTIFIER = m0resleepstudios.GuessTheFlag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
